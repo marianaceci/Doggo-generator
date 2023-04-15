@@ -70,3 +70,32 @@ li{
   padding-left: 1rem;
   padding-bottom: 1rem;
 }
+
+@media screen and (max-width: 1024px){
+  .section-container {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .section-container {
+    flex-direction: column;
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+
+  img{
+    max-width: 50vw;
+  }
+
+  .right-column h2{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .right-column ul{
+    padding-top: 0;
+  }
+
+}

@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <script defer src="./main.js"></script>
-    <title>Dog Generator</title>
-</head>
-<body>
+    <title>Dog Viewer</title>
+  </head>
+  <body>
     <header>
-        <h1>Doggo Viewer</h1>
-        <span id="dog-name">Dougie the Default Doggo</span>
+      <h1>Doggo Viewer</h1>
     </header>
     <section class="section-container">
-        <section class="column left-column">
-            <section class="item">
-                <span>Choose your breed!</span>
-            </section>
-            <section class="item">
-                <select name="" class="breeds">
-                    <option value="starter" selected>Select one</option>
-                </select>
-            </section>
-            <section class="item">
-                <section class="img-container">
-                    <section class="container">
-                        <div>🐶​🐶​🐶​🐶​🐶​🐶​🐶​</div>
-                        <img src="http://placecorgi.com/500/500" alt="picture of a very cute dog" class="dog-img">
-                    </section>
-                </section>
-            </section>
+      <section class="column left-column">
+        <section class="item">
+          <h2>Choose a breed!</h2>
         </section>
-        <section class="column">
-            <section class="item">
-                <span>Doggo Characteristics</span>
-                <ul>
-                    <li id="MF">S: Male</li>
-                    <li id="age">Age: 2</li>
-                    <li id="likes">Likes: Ham, String cheese</li>
-                    <li id="dislikes">Dislikes: Baths, Entropy</li>
-                    <li id="fun-fact">Additional Info: On every walk, has to visit that one spot where they found a piece of cheese on the ground six months ago.</li>
-                </ul>
-            </section>
+        <section class="item">
+          <select name="" class="breeds">
+            <option value="starter" selected>Select one</option>
+          </select>
         </section>
+        <section class="item">
+          <section class="img-container">
+            <section class="container">
+              <img
+                src="http://via.placeholder.com/200x200"
+                alt="picture of a very cute dog"
+                class="dog-img"
+              />
+            </section>
+          </section>
+        </section>
+      </section>
+
+      <section class="column right-column">
+        <section class="item">
+          <h2>Doggo Characteristics:</h2>
+          <ul>
+            <li id="dog-name">Name:</li>
+            <li id="MF">S:</li>
+            <li id="age">Age:</li>
+            <li id="likes">Likes:</li>
+            <li id="dislikes">Dislikes:</li>
+            <li id="fun-fact">Additional Info:</li>
+          </ul>
+        </section>
+      </section>
     </section>
-</body>
+  </body>
 </html>
